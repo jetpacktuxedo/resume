@@ -3,12 +3,19 @@
 \usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
 %\usepackage{newcent}   % uses new century schoolbook postscript font 
 
+\newenvironment{tightcenter}{%
+  \setlength\topsep{0pt}
+  \setlength\parskip{0pt}
+  \begin{center}
+}{%
+  \end{center}
+}
+
 \begin{document}
 
 \name{Ethan Madden}
 % \address used twice to have two lines of address
 \address{maddene@purdue.edu}
-\address{maddene.com}
 \address{(812) 250-1419}
  
 \begin{resume}
@@ -65,14 +72,14 @@
                 
                 {\sl Custom Keyboard} \hfill Summer 2013 - Present
                 \begin{itemize}  \itemsep -2pt % reduce space between items
-                  \item A variety of Cherry MX Switches processed by a Teensy3 Microcontroller running custom firmware 
+                    \item A variety of Cherry MX Switches processed by a Teensy3 Microcontroller running custom firmware \\[5ex]
                 \end{itemize}
 
+                \begin{tightcenter}
+                For more information and source code for my projects,\\
+                check my website www.maddene.com
+                \end{tightcenter}
+
 \end{resume}
+
 \end{document}
-
-
-
-
-
-
