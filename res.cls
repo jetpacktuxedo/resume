@@ -492,7 +492,7 @@
 %
 \def\fullline{		% hrules only listen to \hoffset
   \nointerlineskip	% so I have this code	  
-  \moveleft\hoffset\vbox{\textcolor{OliveGreen}{\hrule width\textwidth}} 
+  \moveleft\hoffset\vbox{\textcolor{TealBlue}{\hrule width\textwidth}} 
   \nointerlineskip
 }
 
