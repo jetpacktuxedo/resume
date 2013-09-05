@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.8.27)  5 SEP 2013 02:37
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.8.27)  5 SEP 2013 02:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -108,7 +108,7 @@ File: omsphv.fd
 LaTeX Font Info:    Font shape `OMS/phv/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 40.
 
-Underfull \hbox (badness 10000) in paragraph at lines 79--80
+Underfull \hbox (badness 10000) in paragraph at lines 80--81
 
  []
 
@@ -118,7 +118,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 79--80
 Here is how much of TeX's memory you used:
  1323 strings out of 495059
  17708 string characters out of 3182030
- 70732 words of memory out of 3000000
+ 71732 words of memory out of 3000000
  4549 multiletter control sequences out of 15000+200000
  12918 words of font info for 25 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
@@ -128,7 +128,7 @@ Here is how much of TeX's memory you used:
 blic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helv
 etic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.
 pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on main.pdf (1 page, 35237 bytes).
+Output written on main.pdf (1 page, 35399 bytes).
 PDF statistics:
  25 PDF objects out of 1000 (max. 8388607)
  17 compressed objects within 1 object stream
