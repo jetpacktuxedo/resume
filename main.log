@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.8.27)  5 SEP 2013 03:33
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.8.27)  16 SEP 2013 08:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -63,19 +63,19 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 File: dvipsnam.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
 ))
 No file main.aux.
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Try loading font information for OT1+phv on input line 15.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 22.
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
 )
@@ -94,21 +94,21 @@ File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
 \everyMPtoPDFconversion=\toks20
 )
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <12> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 22.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 29.
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <10> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 23.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 30.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 37.
+(Font)              <7> on input line 44.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 37.
-LaTeX Font Info:    Try loading font information for OMS+phv on input line 40.
+(Font)              <5> on input line 44.
+LaTeX Font Info:    Try loading font information for OMS+phv on input line 47.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsphv.fd
 File: omsphv.fd 
 )
 LaTeX Font Info:    Font shape `OMS/phv/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 40.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 47.
 
-Underfull \hbox (badness 10000) in paragraph at lines 80--81
+Underfull \hbox (badness 10000) in paragraph at lines 87--88
 
  []
 
@@ -122,13 +122,13 @@ Here is how much of TeX's memory you used:
  4549 multiletter control sequences out of 15000+200000
  12918 words of font info for 25 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 29i,5n,21p,216b,160s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 29i,5n,21p,244b,160s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/share/texlive/texmf
 -dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/pu
 blic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helv
 etic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.
 pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on main.pdf (1 page, 35399 bytes).
+Output written on main.pdf (1 page, 35395 bytes).
 PDF statistics:
  25 PDF objects out of 1000 (max. 8388607)
  17 compressed objects within 1 object stream
