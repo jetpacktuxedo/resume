@@ -25,19 +25,28 @@
   \address{2049 NW 60th St, Seattle WA 98107}
 
 \begin{resume}
+  \setlength\tabcolsep{2pt}
   \section{\textcolor{TealBlue}{Education}} 
-    {\sl Purdue University}, \hfill August 2011 -- May 2015 \\% chktex 8
-      Major: Computer and Information Technology \\
-      Concentration: Network Engineering Technology
+    \begin{tabular}{@{} p{0.7\textwidth} r c l @{}}
+      {\sl Purdue University\/} & August 2011 & -- & May 2015 % chktex 8
+    \end{tabular}\\
+    \begin{tabular}{l l}
+      {\sl Major\/}:& Computer and Information Technology \\
+      {\sl Concentration\/}:& Network Engineering Technology
+    \end{tabular}
 
   \section{\textcolor{TealBlue}{Skills}} 
-    {\sl Languages:\/}  Python, GoLang, C, Bash, Java, \LaTeX{} \\
-    {\sl Technologies:\/} Postgres, MySql, Docker, Puppet, Saltstack, Linux, VMWare
+    \begin{tabular}{l l}
+      {\sl Languages\/}:& Python, GoLang, C, Bash, Java, \LaTeX{} \\
+      {\sl Technologies\/}:& Postgres, MySql, Docker, Puppet, Saltstack, Linux, VMWare
+    \end{tabular}
 
   \section{\textcolor{TealBlue}{Experience}} 
-    {\sl Software Senior Engineer\/} \hfill October 2018 -- Present \\% chktex 8
-    {\sl Software Development Engineer\/} \hfill June 2015 -- October 2018 \\% chktex 8
-    {\sl Software Development Engineering Intern\/} \hfill May 2014 -- August 2014 \\% chktex 8
+    \begin{tabular}{@{} p{0.69\textwidth} r c l @{}}
+      {\sl Software Senior Engineer\/} & October 2018 & -- & Present \\% chktex 8
+      {\sl Software Development Engineer\/} & June 2015 & -- & October 2018 \\% chktex 8
+      {\sl Software Development Engineering Intern\/} & May 2014 & -- & August 2014 \\% chktex 8
+    \end{tabular} \\
       Dell EMC -- Isilon % chktex 8
       \begin{itemize} 
 	\setlength{\itemsep}{-2pt}
@@ -45,14 +54,16 @@
         \item Architected and built python tooling for filling that database using processed customer log data
         \item Resolved engineering questions and triaged field issues using our business platform
         \item Developed a set of dashboards in collaboration with Solutions Engineering leads to identify customers nearing storage capacity, leading to added sales
-        \item Taught other Engineering teams how to leverage the data that we collected to investigate issues in their components
+        \item Taught other Engineering teams how to leverage the data that we collected in order to aid in the investigation issues in their components
         \item Handed off ongoing development work for the business intelligence platform to a remote team through a series of remote sessions and on-site training
         \item Migrated internal teams' development workflow to use reproducible Virtual Machines
 	\item Built dockerized microservices designed to collect and parse information for use in automating the assessment of incoming pull requests
 	\item Rearchitected legacy perl-based web tools in order to improve performance and maintainability
       \end{itemize}
 
-    {\sl Student System Administrator\/} \hfill September 2011 -- May 2015 \\% chktex 8
+    \begin{tabular}{@{} p{0.66\textwidth} r c l @{}}
+      {\sl Student System Administrator\/} \hfill & September 2011 & -- & May 2015 % chktex 8
+    \end{tabular} \\
       Rosen Center for Advanced Computing
       \begin{itemize}
 	\setlength{\itemsep}{-2pt}
@@ -61,22 +72,27 @@
       \end{itemize}
 
   \section{\textcolor{TealBlue}{Activities}}
-    {\sl CKeys\/} \hfill 2017 -- Present % chktex 8
+    \begin{tabular}{@{} p{0.77\textwidth} r c l @{}}
+	    {\sl CKeys\/} & 2017 & -- & Present % chktex 8
+    \end{tabular}
       \begin{itemize}
 	\setlength{\itemsep}{-2pt}
         \item One of four founding members of the 501(c)(3) non-profit focused on introducing people to electronics and programming through mechanical keyboards % chktex 36
-        \item Taught soldering workshops in partnership with the Living Computer Museum + Labs
+        \item Taught soldering workshops in partnership with the Living Computers
         \item Organized meetups for 300+ attendees including workshops, talks, and other activities
       \end{itemize}
 
-    {\sl Student Cluster Competition\/} \hfill September 2012 -- 2015 % chktex 8
+    \begin{tabular}{@{} p{0.66\textwidth} r c l @{}}
+	    {\sl Student Cluster Competition\/} & September 2012 & -- & May 2015 % chktex 8
+    \end{tabular}
       \begin{itemize}
 	\setlength{\itemsep}{-2pt}
-        \item Worked on a team of six undergraduate students
-        \item Compiled and ran scientific applications on a small supercomputing cluster
+        \item Worked on a team of six undergraduate students to compile and run scientific applications on a small supercomputing cluster
       \end{itemize}
   
-    {\sl ACM Special Interest Group for Robotics\/} \hfill September 2011 -- May 2014 \\% chktex 8
+    \begin{tabular}{@{} p{0.66\textwidth} r c l @{}}
+	    {\sl ACM Special Interest Group for Robotics\/} & September 2011 & -- & May 2014 \\% chktex 8
+    \end{tabular} \\
       Software Team Leader, Head of Outreach
       \begin{itemize}
 	\setlength{\itemsep}{-2pt}
@@ -85,18 +101,21 @@
       \end{itemize}
     
   \section{\textcolor{TealBlue}{Projects}}
-    {\sl pbnh -- https://github.com/bhanderson/pbnh\/} \hfill May 2016 % chktex 8
+    \begin{tabular}{@{} p{0.85\textwidth} l @{}}
+      {\sl pbnh -- https://github.com/bhanderson/pbnh\/} & May 2016 % chktex 8
+    \end{tabular}
       \begin{itemize}
 	\setlength{\itemsep}{-2pt}
         \item Built a pastebin to replace a legacy platform in use at Isilon without losing historical data
         \item Designed to handle images, video, and other media in addition to text
       \end{itemize}
 
-    {\sl Boilermake\/} \hfill October 2014
+    \begin{tabular}{@{} p{0.85\textwidth} l @{}}
+      {\sl Boilermake\/} & October 2014
+    \end{tabular}
       \begin{itemize}
 	\setlength{\itemsep}{-2pt}
-        \item Worked on a multidisciplinary team of undergraduate students
-        \item Built a 3D-printed robotic hand controlled by Electromyography
+        \item Worked on a multidisciplinary team of undergraduate students to build a 3D-printed robotic hand controlled by Electromyography
       \end{itemize}
 
 \end{resume}
