@@ -1,0 +1,23 @@
+name: Build PDF
+on:
+  push:
+    paths:
+      - "resume.tex"
+      - "res.cls"
+      - ".github/workflows/build_pdf.yml"
+
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - run: sudo apt install -y texlive-latex-recommended texlive-fonts-recommended
+
+      - run: pdflatex resume.tex
+
+      - uses: actions/upload-artifact@v2
+        with:
+          name: resume.pdf
+          path: resume.pdf
